@@ -1,0 +1,41 @@
+body{
+    background-color: #000000;
+}
+
+
+.bg-transparent{
+    background-color: rgb(red, green, rgba(0, 0, 0, 0));
+}
+
+.navbar{
+    z-index: 2;
+}
+
+.btn-nav{
+    border: none;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.bg-back{
+    position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+.item-lg{
+    font-size: 70px;
+}
+
+.title{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.bg-banner{
+	background-color: #000000;
+	color: white;
+}
