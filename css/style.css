@@ -1,41 +1,129 @@
-body{
+body {
     background-color: #000000;
 }
 
 
-.bg-transparent{
+.bg-transparent {
     background-color: rgb(red, green, rgba(0, 0, 0, 0));
 }
 
-.navbar{
+.navbar {
     z-index: 2;
 }
 
-.btn-nav{
+.btn-nav {
     border: none;
     box-shadow: none;
+}
+.btn-nav:hover{
+    color: aliceblue;
 }
 
 .navbar-toggler:focus {
     box-shadow: none;
 }
 
-.bg-back{
+.bg-back {
+
     position: absolute;
-	top: 0;
-	z-index: 1;
+    top: 0;
+    z-index: 1;
 }
 
-.item-lg{
+.carousel-item img {
+    height: 100vh;
+}
+
+#img1 {
+    background-image: url("../assets/img\ \(1\).jpg");
+    min-height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img2 {
+    background-image: url("../assets/img\ \(2\).jpg");
+    min-height: 100vh;
+    min-width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img3 {
+    background-image: url("../assets/img\ \(3\).jpg");
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-rgb {
+    background-color: rgba(0, 0, 0, 0.363);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.item-lg {
     font-size: 70px;
 }
 
-.title{
+.title {
+    display: flex;
     font-size: 32px;
     margin-bottom: 30px;
 }
 
-.bg-banner{
-	background-color: #000000;
-	color: white;
+.bg-banner {
+
+    color: white;
+
+    background-image: url("../assets/img\ \(3\).jpg");
+    /* Set a specific height */
+    min-height: 160px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.bg-banner p{
+    background-color: #000000;
+    margin: 12px;
+    padding: 5%;
+}
+
+.item {
+    font-size: 50px;
+}
+
+.inline {
+    display: inline;
+}
+
+hr {
+    max-width: 20%;
+    color: grey;
+    border: 1px solid;
+}
+
+.p50{
+    max-width: 27%;
+    margin-left: 35%;
+}
+
+.h50{
+    min-height: 256px;
+}
+
+.h50:hover{
+    border: black solid;
+}
+
+
+/* pa lo del nav con un sticky https://www.youtube.com/watch?v=9PUDDRJY3_w */
