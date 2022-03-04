@@ -1,7 +1,12 @@
+@media (min-width: 768px){
+.mb-md-4 {
+    margin-bottom: 0.5rem; 
+    margin-top: 0.5rem;   
+}
+}
 body {
     background-color: #000000;
 }
-
 
 .bg-transparent {
     background-color: rgb(red, green, rgba(0, 0, 0, 0));
@@ -127,10 +132,6 @@ hr {
 .h50:hover{
     border: black solid;
 }
-
-.mt-40{
-    margin-top: 24px;
-}
 .mt-200{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -140,7 +141,7 @@ hr {
 }
 
 .row{
-    margin-right: 0;
     margin-left: 0;
+    margin-right: 0;
 }
 /* pa lo del nav con un sticky https://www.youtube.com/watch?v=9PUDDRJY3_w */
