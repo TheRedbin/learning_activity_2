@@ -30,7 +30,7 @@ body {
     box-shadow: none;
 }
 .navbar-img{
-    width: 5rem;
+    width: 2rem;
     display: block;
     margin-left: 25px;
 
@@ -90,6 +90,7 @@ body {
     margin-bottom: 30px;
 }
 
+
 .bg-banner {
     color: white;
     background-image: url("../assets/img\ \(3\).jpg");
@@ -132,16 +133,15 @@ hr {
 .h50:hover{
     border: black solid;
 }
-.mt-200{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
-    font-size: 250%;
-    color: white;
+
+.bg-grey{
+    background-color: #2a2a2a56;
 }
+
 
 .row{
     margin-left: 0;
     margin-right: 0;
 }
+
 /* pa lo del nav con un sticky https://www.youtube.com/watch?v=9PUDDRJY3_w */
